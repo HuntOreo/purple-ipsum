@@ -1,5 +1,3 @@
-# Webpack Template
-
-This is a template repo to be used when creating simple webpack projects.
+# Purple Ipsum
 
 By Hunter Oreair
