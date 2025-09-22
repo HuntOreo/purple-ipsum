@@ -1,6 +1,6 @@
 import './style.css';
-import Component from './Component';
+import Header from './Head';
 
 const body = document.querySelector('body');
 
-body.append(Component());
+body.append(Header());
