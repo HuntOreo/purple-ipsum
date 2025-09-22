@@ -1,6 +1,10 @@
 import './style.css';
-import Header from './Head';
+import { Container } from 'elekit';
+import Header from './components/Header';
 
 const body = document.querySelector('body');
+const app = new Container({ selectors: 'app' });
+const elements = [Header()]
+app.appendEl(elements);
 
-body.append(Header());
+body.append(app.DOMElement);
